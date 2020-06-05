@@ -1,0 +1,110 @@
+
+/* For Mobile */
+
+.a {
+  height: 75px;
+  width: 480px;
+  box-sizing: border-box;
+  line-height: 75px;
+}
+
+.b {
+  height: 150px;
+  width: 480px;
+  box-sizing: border-box;
+  line-height: 150px;
+}
+
+.cd {
+  height: 125px;
+  width: 480px;
+  box-sizing: border-box;
+  line-height: 125px;
+}
+
+.efgh {
+  height: 250px;
+  width: 240px;
+  display: inline-block;
+   box-sizing: border-box;
+  line-height: 250px;
+}
+
+.fh {
+  margin-left: -4px;
+}
+
+.i {
+  height: 80px;
+  width: 480px;
+  box-sizing: border-box;
+  line-height: 80px;
+}
+
+/* 
+End Mobile */
+
+/* For Desktop: */
+
+@media only screen and (min-width: 768px){
+  * {
+    background-color: red;
+  }
+
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: black;
+  }
+
+  
+.a {
+  height: 100px;
+  width: 960px;
+  box-sizing: border-box;
+  line-height: 100px;
+}
+
+.b {
+  height: 600px;
+  width: 200px;
+  float: left;
+  box-sizing: border-box;
+  line-height: 600px;
+}
+
+.cd {
+  height: 200px;
+  width: 380px;
+  box-sizing: border-box;
+  line-height: 200px;
+  display: inline-block;
+}
+
+.d {
+  margin-left: -4px;
+}
+
+.efgh {
+  height: 250px;
+  width: 190px;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 250px;
+}
+
+.g {
+  margin-left: -4px;
+}
+
+.i {
+  height: 150px;
+  width: 760px;
+  box-sizing: border-box;
+  line-height: 150px;
+}
+
+}
+
+
+
